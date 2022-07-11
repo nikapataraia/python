@@ -1,0 +1,206 @@
+_______________________________________________
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/                       
+_______________________________________________
+_____________________Rules_____________________
+Try to guess the hidden word one letter at a   
+time. The number of dashes are equivalent to   
+the number of letters in the word. If a player 
+suggests a letter that occurs in the word,     
+blank places containing this character will be 
+filled with that letter. If the word does not  
+contain the suggested letter, one new element  
+of a hangman’s gallow is painted. As the game  
+progresses, a segment of a victim is added for 
+every suggested letter not in the word. Goal is
+to guess the word before the man hangs!        
+_______________________________________________
+                 
+     ._______.   
+     |/          
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+a
+                 
+     ._______.   
+     |/      |   
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+b
+                 
+     ._______.   
+     |/      |   
+     |      (_)  
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+c
+                 
+     ._______.   
+     |/      |   
+     |      (_)  
+     |       |   
+     |       |   
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+d
+                 
+     ._______.   
+     |/      |   
+     |      (_)  
+     |      \|/  
+     |       |   
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+e
+                 
+     ._______.   
+     |/      |   
+     |      (_)  
+     |      \|/  
+     |       |   
+     |      / \  
+     |           
+ ____|___        
+                 
+Hidden word was:  fort
+ __     __           _           _   _                                    
+ \ \   / /          | |         | | | |                                   
+  \ \_/ /__  _   _  | | ___  ___| |_| |                                   
+   \   / _ \| | | | | |/ _ \/ __| __| |                                   
+    | | (_) | |_| | | | (_) \__ \ |_|_|                                   
+    |_|\___/ \__,_| |_|\___/|___/\__(_)                                   
+        _______ _                                        _ _          _ _ 
+       |__   __| |                                      | (_)        | | |
+          | |  | |__   ___   _ __ ___   __ _ _ __     __| |_  ___  __| | |
+          | |  | '_ \ / _ \ | '_ ` _ \ / _` | '_ \   / _` | |/ _ \/ _` | |
+          | |  | | | |  __/ | | | | | | (_| | | | | | (_| | |  __/ (_| |_|
+          |_|  |_| |_|\___| |_| |_| |_|\__,_|_| |_|  \__,_|_|\___|\__,_(_)
+__________________________________________________________________________
+Do you want to play again? (yes/no)
+yes
+_______________________________________________
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/                       
+_______________________________________________
+_____________________Rules_____________________
+Try to guess the hidden word one letter at a   
+time. The number of dashes are equivalent to   
+the number of letters in the word. If a player 
+suggests a letter that occurs in the word,     
+blank places containing this character will be 
+filled with that letter. If the word does not  
+contain the suggested letter, one new element  
+of a hangman’s gallow is painted. As the game  
+progresses, a segment of a victim is added for 
+every suggested letter not in the word. Goal is
+to guess the word before the man hangs!        
+_______________________________________________
+                 
+     ._______.   
+     |/          
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  ____
+Enter the letter: 
+m
+                 
+     ._______.   
+     |/          
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  m___
+Enter the letter: 
+o
+                 
+     ._______.   
+     |/          
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  moo_
+Enter the letter: 
+x
+                 
+     ._______.   
+     |/      |   
+     |           
+     |           
+     |           
+     |           
+     |           
+ ____|___        
+                 
+Guess the word:  moo_
+Enter the letter: 
+n
+Hidden word was:  moon
+________________________________________________________________________
+          _                                  _                          
+         (_)                                (_)                         
+__      ___ _ __  _ __   ___ _ __  __      ___ _ __  _ __   ___ _ __    
+\ \ /\ / / | '_ \| '_ \ / _ \ '__| \ \ /\ / / | '_ \| '_ \ / _ \ '__|   
+ \ V  V /| | | | | | | |  __/ |     \ V  V /| | | | | | | |  __/ |      
+  \_/\_/ |_|_| |_|_| |_|\___|_|      \_/\_/ |_|_| |_|_| |_|\___|_|      
+           | |   (_)    | |                  | (_)                      
+        ___| |__  _  ___| | _____ _ __     __| |_ _ __  _ __   ___ _ __ 
+       / __| '_ \| |/ __| |/ / _ \ '_ \   / _` | | '_ \| '_ \ / _ \ '__|
+      | (__| | | | | (__|   <  __/ | | | | (_| | | | | | | | |  __/ |   
+       \___|_| |_|_|\___|_|\_\___|_| |_|  \__,_|_|_| |_|_| |_|\___|_|   
+________________________________________________________________________
+Do you want to play again? (yes/no)
+no
+
