@@ -1,0 +1,41 @@
+artists:
+{
+     Jarrett,Church,1981,
+    albums:
+    {
+         Shortsighted Client,2018,songs:
+        {
+             Each Panics,1.2 minutes,2005,175
+            |Petri Stiller,0.5 minutes,2012,135
+        }
+    },
+    singles:
+    {
+        Winer Retarder Florin,3.1 minutes,2018,109
+    }
+    #Kaia,Joseph,1976,
+    albums:
+    {
+         Biographies,1994,songs:
+        {
+             Would Gables,0.9 minutes,1999,78
+            |Chili Rho,9.9 minutes,2022,161
+            |Cuisine Video Grimace,7.1 minutes,2020,97
+            |Axiom Prompter,2.5 minutes,1998,173
+            |Chemist Comic,4.6 minutes,1993,198
+        }
+        %Tonnage,2021,songs:
+        {
+             Dunk Protestant Without Surgical,0.3 minutes,2016,7
+            |Stairways Stamps,3.5 minutes,2003,16
+            |Repertory Council,5.2 minutes,1998,45
+            |Swing Trump,9.2 minutes,2006,129
+        }
+    },
+    singles:
+    {
+         Pageantry Torpedoes,0.7 minutes,1990,147
+        |Pestilent,0.0 minutes,2003,128
+        |Repent Bum,3.8 minutes,2014,53
+    }
+}

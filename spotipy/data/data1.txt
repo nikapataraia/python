@@ -1,0 +1,16 @@
+artists:
+{
+Jarrett,Church,1981,
+albums:
+{
+Shortsighted Client,2018,songs:
+{
+Each Panics,1.2 minutes,2005,175
+|Petri Stiller,0.5 minutes,2012,135
+}
+},
+singles:
+{
+Winer Retarder Florin,3.1 minutes,2018,109
+}
+}

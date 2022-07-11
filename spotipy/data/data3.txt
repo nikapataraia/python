@@ -1,0 +1,61 @@
+artists:
+(
+     Jarrett,Church,1981,
+    albums:
+    [
+         Shortsighted Client,2018,songs:
+        {
+             Each Panics,1.2 minutes,2005,175
+            |Petri Stiller,0.5 minutes,2012,135
+        }
+        %Treachery Nights,2007,songs:
+        {
+             Sunshine Magneto,1.6 minutes,2018,158
+            |Shifty Diffuser,4.9 minutes,2018,127
+            |Chamberlain Income,6.5 minutes,2015,110
+            |Vane,3.2 minutes,2014,112
+            |Bullfrog Precinct,3.4 minutes,2008,85
+            |Shriek  Plenty,6.5 minutes,2022,11
+        }
+    ],
+    singles:
+    {
+        Winer Retarder Florin,3.1 minutes,2018,109
+    }
+    #Kaia,Joseph,1976,
+    albums:
+    [
+         Biographies,1994,songs:
+        {
+             Would Gables,0.9 minutes,1999,78
+            |Chili Rho,9.9 minutes,2022,161
+            |Baroness Showy,5.6 minutes,2005,87
+            |Kink Jam,1.3 minutes,2017,157
+            |Perimeter Cyclotron,2.6 minutes,2020,29
+            |Stormy Fungal,6.0 minutes,2008,151
+            |Cuisine Video Grimace,7.1 minutes,2020,97
+            |Axiom Prompter,2.5 minutes,1998,173
+            |Chemist Comic,4.6 minutes,1993,198
+        }
+        %Tonnage A,2021,songs:
+        {
+             Dunk Protestant Without Surgical,0.3 minutes,2016,7
+            |Stairways Stamps,3.5 minutes,2003,16
+            |Repertory Council,5.2 minutes,1998,45
+            |Swing Trump,9.2 minutes,2006,129
+            |Breadwinner Biller,9.2 minutes,2002,147
+        }
+        %Tonnage B,2021,songs:
+        {
+             Volt Cardinal,2.8 minutes,2012,60
+            |Mariner Legislative,4.0 minutes,1990,15
+            |Fins Scoring,7.3 minutes,2007,98
+        }
+    ],
+    singles:
+    {
+         Pageantry Torpedoes,0.7 minutes,1990,147
+        |Pestilent,0.0 minutes,2003,128
+        |Repent Bum,3.8 minutes,2014,53
+    }
+)
