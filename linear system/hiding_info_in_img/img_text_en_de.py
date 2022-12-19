@@ -34,7 +34,7 @@ def custom_dot_vec(a,b):
         res.append(0)
     for ind in range(len(a)):
         for inde in range(len(a[ind])):
-            res[ind] += a[ind][inde] * b[ind]
+            res[ind] += a[ind][inde] * b[inde]
     return res
 
 #  ITERATIVE METHODS
