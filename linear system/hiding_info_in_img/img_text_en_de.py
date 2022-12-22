@@ -13,7 +13,7 @@ encodingks = []
 imgwidth =0
 imgheight = 0
 stringlength = 0
-
+floatmul = 1
 
 def custom_dot_mat(a , b):
     res = []
@@ -36,6 +36,23 @@ def custom_dot_vec(a,b):
         for inde in range(len(a[ind])):
             res[ind] += a[ind][inde] * b[inde]
     return res
+
+ 
+def largest(arr):
+    max = arr[0]
+    for i in range(len(arr)):
+        if arr[i] > max:
+            max = arr[i]
+    return max
+
+def turn_float(y):
+    global floatmul
+    max = largest(y)
+    while(max < 262144):
+        floatmul = floatmul * 10
+        max = max*10
+    return np.array(list(map(lambda x : x * floatmul , y)))
+
 
 #  ITERATIVE METHODS
 def SOR(n,matr,bientries,xientries,tolerance,maximumit,wO):
@@ -133,8 +150,10 @@ def richardson(n , a ,b , x,tol,maxIT,p,t):
     prev = x
     new = x
     p_inv = np.linalg.inv(p)
-    dot_pin_a = np.dot(np.array(p_inv), np.array(a))
-    dot_ping_b = np.dot(np.array(p_inv) , b)  * t
+    # dot_pin_a = np.dot(np.array(p_inv), np.array(a))
+    dot_pin_a = custom_dot_mat(p_inv , a)
+    dot_ping_b = np.array(custom_dot_vec(p_inv , b) )* t
+    # dot_ping_b = np.dot(np.array(p_inv) , b)  * t
     i  = np.identity(n)
     def tole(pre , ne):
         mat = np.array(pre) - np.array(ne)
