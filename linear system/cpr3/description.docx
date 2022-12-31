@@ -1,0 +1,18 @@
+for first model:
+i have two sets => years which is my A matrix A[0] = 1, and growth which is my b vector
+in years i have data between 1950-2022 which i write in the from of 'actualy year - 1950' because its more convinient 
+, faster and easier to handle, but in calculating x i only use data from 2000-2022, this data is very incosistant and
+predictions are only consistant fro near future. if you want to add more data, or use all the data i have you have to change
+lines 96,97,98,112,116. in the code i sent i use years[50:] and growth[50:]  you could change these indexes
+but you would also have to change lines 112 and 116 according to them, the number 2000 should be changed accordingly:
+if we chose data from years[a:0] and growth [a:0] the lines should be written as - 'num = num - (2000 - (50 - a))'  
+... and for calculating x i use qr decomposition formula x = R^-1 * Q^T * b
+
+second model:
+i use the same decomposition algorithms as the first one but the constrains that i add are 
+c = [[100,700,82] , [18,0,0]] and d = [50.0,0.0001]
+the formulas i use are from - http://www.seas.ucla.edu/~vandenbe/133A/lectures/cls.pdf
+here, i kept the notation of this reader for it to be more understandable.
+there are no constraints on adding data as far it follows the fromula -
+A and B indexes must be corresponding, every B[index] is a % of cancer petients of A[index] people-group
+A[index] = [persons age, packs per year, years of consistant smoking]
