@@ -14,7 +14,5 @@ def cholesky(A):
                 L[i][k] = (1.0 / L[k][k] * (A[i][k] - tmp))
     return np.array(L)
 
-L = cholesky([[2,-3],[-3,3.1]])
-print(L @L.T)
 
 # NOTICE, A must be positive definite and symetric matrix matrix
