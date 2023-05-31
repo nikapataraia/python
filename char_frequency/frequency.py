@@ -7,6 +7,3 @@ def frequency(text):
     else :
       retdict[let] = 1
   return retdict
-
-
-print([1,2,3,4] // 2)
